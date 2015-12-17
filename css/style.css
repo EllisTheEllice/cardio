@@ -1,0 +1,28 @@
+#createButton {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#createButton span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+#exportCSV {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#exportCSV span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+a.pager{margin: 0 5px; color: orange;}
+a.pager:hover{text-shadow: 2px 2px 10px #ff6600; color: ff6600; }
+#values tr:nth-of-type(even){background-color: #cdcdcd;}
+
+body{
+    margin:0;
+}
+
+.canvas-list{
+    width: 1280px;
+    padding: 0;
+    margin: 0;
+}
+
+.canvas-list li{
+    width: 620px;
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.canvas-list li:nth-child(even){
+    margin-left: 36px;
+}
